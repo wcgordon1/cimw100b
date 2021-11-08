@@ -89,6 +89,7 @@ td, th {
 	padding: .5em;
 	border: 1px solid darkblue;
 }
+
 @media (min-width: 600px) { 
 		header { background-image: url(bigfish.gif); }
 		h1        { font-size: 3em; }
