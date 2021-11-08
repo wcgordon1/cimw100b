@@ -79,6 +79,16 @@ footer { background-color: #AEC3E3;
 		 padding: 1em;
 		 text-align: center;
 }
+
+table {
+	margin: 1em;
+	border: 2px solid darkblue;
+	border-collapse: collapse;
+}
+td, th {
+	padding: .5em;
+	border: 1px solid darkblue;
+}
 @media (min-width: 600px) { 
 		header { background-image: url(bigfish.gif); }
 		h1        { font-size: 3em; }
