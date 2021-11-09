@@ -113,6 +113,19 @@ h1 {
 	transition: 5s;
 }
 
+.shop {
+	border: 1px solid #aec3e3;
+	background-color: white;
+}
+
+.shop form {
+	clear: right;
+}
+
+.shop img {
+	float: right;
+}
+
 @media (min-width: 600px) { 
 		header { background-image: url(bigfish.gif); }
 		h1        { font-size: 3em; }
