@@ -101,6 +101,18 @@ input, textarea {
 	margin-bottom: .5em;
 }
 
+@keyframes fadein {
+	from {opacity:0;}
+	to {opacity:1;}
+  }
+
+h1 {
+	animation-duration: 5s;
+	animation-name: fadein;
+	transition-timing-function: ease-out;
+	transition: 5s;
+}
+
 @media (min-width: 600px) { 
 		header { background-image: url(bigfish.gif); }
 		h1        { font-size: 3em; }
@@ -129,6 +141,9 @@ input, textarea {
 		}
 		label {
 			text-align: right;
+		}
+		article {
+			flex: 2;
 		}
 }
 @media (min-width: 1024px) { 

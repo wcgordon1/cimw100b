@@ -116,7 +116,9 @@ audio {
 	display: block;
 	margin-top: 1em;
 }
- @media (min-width: 600px) { 
+
+
+@media (min-width: 600px) { 
 		header { 	padding-left: 0; 
 				text-align: center; }
 		h1        { font-size: 3em; }	
