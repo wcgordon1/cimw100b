@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will Gordon - Web Hosting Page</title>
+    <style>
+        body {
+            background-image: linear-gradient(130deg, teal, pink);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+
+        .hero form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0 auto;
+            width: 400px;
+            border: 2px solid darkblue;
+            padding: 22px;
+        }
+
+        .hero h2 {
+            text-align: center;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header img {
+            width: 300px;
+            border: 5px solid darkblue;
+            margin-bottom: 10px;
+        }
+
+        .intro {
+            text-align: center;
+            width: 500px;
+        }
+
+
+
+        table {
+            width: 50%;
+            margin: auto;
+            border-spacing: 0;
+            margin: 0 auto;
+            border: 2px solid darkblue;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            padding: .5em;
+            border: 1px solid darkblue;
+        }
+
+        th {
+            font-size: 20px;
+        }
+
+        a {
+            color: darkblue;
+        }
+
+        footer {
+            text-align: center;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Hello! and Welcome!</h1>
+        <h2>Here you will find Will Gordon's page on Web Hosting Providers.</h2>
+        <img src="images/godaddy.jpeg" alt="GoDaddy Logo">
+        <p>Note from Will Gordon - I chose GoDaddy because I built my website, email, and phone system through them.
+            They hold a place in my heart and their customer service is amazing and available 24/7.</p>
+    </div>
+
+
+    <div class="hosts">
+        <table>
+            <tr>
+                <th></th>
+                <th id="daddy">GoDaddy</th>
+                <th>HostGator</th>
+                <th>BlueHost</th>
+            </tr>
+            <tr>
+                <th>setup fees</th>
+                <td>20. Depends on service</td>
+                <td>15</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <th>monthly fees</th>
+                <td>20-120</td>
+                <td>8-50</td>
+                <td>12-60</td>
+            </tr>
+            <tr>
+                <th>domain registration $</th>
+                <td>1-20 first year</td>
+                <td>Free first year. Depends on TLD</td>
+                <td>Free first year. Depends on TLD</td>
+            </tr>
+            <tr>
+                <th>disk space</th>
+                <td>tons of options. max 75BG</td>
+                <td>up to 100GB</td>
+                <td>up to 50GB</td>
+            </tr>
+            <tr>
+                <th>e-commerce?</th>
+                <td>Yes!</td>
+                <td>Yes!</td>
+                <td>Yes!</td>
+            </tr>
+            <tr>
+                <th>e-commerce $</th>
+                <td>29/month</td>
+                <td>18/month</td>
+                <td>15/month</td>
+            </tr>
+        </table>
+
+
+    </div>
+
+    <div class="hero">
+        <h2>Feel free to drop a note!</h2>
+        <form action="https://formsubmit.co/wcgordon1@gmail.com" method="POST">
+            <div class="row">
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name"><i class="far fa-user"></i> Your name</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="number" required>
+                    <label for="number"><i class="fas fa-phone-alt"></i> Phone</label>
+                </div>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email"><i class="far fa-envelope"></i> Email</label>
+            </div>
+            <div class="input-group">
+                <textarea name="" id="message" cols="39" rows="8" required></textarea>
+                <label for="message"><i class="far fa-comment-dots"></i>Message</label>
+            </div>
+            <button type="submit">SUBMIT <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+    <br>
+    <br>
+    <footer>
+        Copyright &copy; 2021 Will Gordon<br>
+        <a href="mailto:wcgordon1@gmail.com">wcgordon1@gmail.com
+        </a>
+    </footer>
+</body>
+
+</html>
