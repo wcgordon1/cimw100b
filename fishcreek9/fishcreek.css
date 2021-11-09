@@ -90,6 +90,17 @@ td, th {
 	border: 1px solid darkblue;
 }
 
+form {
+	display: flex;
+	flex-direction: column;
+	padding-left: 1em;
+	width: 80%;
+}
+
+input, textarea {
+	margin-bottom: .5em;
+}
+
 @media (min-width: 600px) { 
 		header { background-image: url(bigfish.gif); }
 		h1        { font-size: 3em; }
@@ -105,6 +116,20 @@ td, th {
 		img { flex: 1; }
 		#mobile  { display: none; }
 		#desktop { display: inline; }
+		form {
+			display: grid;
+			width: 40%;
+			grid-template-columns: 6em 1fr;
+			grid-gap: 1em;
+		}
+		#mySubmit {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            width: 9em;
+		}
+		label {
+			text-align: right;
+		}
 }
 @media (min-width: 1024px) { 
     @supports (display: grid) {
