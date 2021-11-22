@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will G</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/09137ce164.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html"><img src="spicelog.png" alt="spicegirls logo" id="logo"></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">25 Year Anniversary</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a href="#contact-form">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>The Spice Girls</h1>
+        <h2>Spice up your life!</h2>
+        <div class="music">
+            <iframe
+                src='https://meetdownload.com/embed/b1189a11c91b4e71843c41fd3c027320/waploaded-spice-girls-holler-1555565265-mp3'
+                width='100%' frameborder='0'></iframe>
+        </div>
+
+        <div class="monkey">
+            <div class="emoji closed active"><img src="spice.png" alt="Johnny Cash" id="cash"></div>
+            <div class="emoji open"><img src="spice1.png" alt="Johnny Cash" id="cash"></div>
+            <script src="app.js"></script>
+        </div>
+        <p id="pMonkey">(click the image)</p>
+        <div class="info">
+            <p id="pMonkey">Welcome to my sweet Spice Girls page. This is my final project for CMW100B-Web
+                Development:HTML Advanced.</p>
+            <p id="pMonkey">Going for a simple and clean site layout with minimal effects. I hope you like it.</p>
+        </div>
+        <br>
+        <p id="pMonkeys">(see the cool effects on the form)</p>
+
+        <div class="hero">
+            <h3 id="contact-form">A Spicy Contact</h3>
+
+            <form action="https://formsubmit.co/wcgordon1@gmail.com" method="POST">
+                <div class="row">
+                    <div class="input-group">
+                        <input type="text" id="name" required>
+                        <label for="name"><i class="far fa-user"></i> Your name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="number" required>
+                        <label for="number"><i class="fas fa-phone-alt"></i> Phone</label>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email"><i class="far fa-envelope"></i> Email</label>
+                </div>
+                <div class="input-group">
+                    <textarea name="" id="message" cols="30" rows="8" required></textarea>
+                    <label for="message"><i class="far fa-comment-dots"></i> Your Message</label>
+                </div>
+                <button type="submit" id="submit">SUBMIT <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p id="foot">Will Gordon - Saddleback Final Project</p>
+        <a href="mailto:wcgordon1@gmail.com" id="foot">Email</a>
+    </footer>
+    <script type="text/javascript">
+        alert("Are you ready to spice it up??");
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>

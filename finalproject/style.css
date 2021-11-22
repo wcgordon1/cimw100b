@@ -1,0 +1,326 @@
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: purple;
+    size: .8rem;
+}
+  h1 {
+      font-size: 5rem;
+      color: purple;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-shadow: 2px 9px 20px pink;
+      margin-top: 50px;
+  }
+
+  h2 {
+    font-size: 3rem;
+    color: purple;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 10px pink;
+    margin-top: 20px;
+}
+  
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+nav{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0px 10px 0px 0px purple;
+}
+
+#logo {
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+ul li{
+      display: inline-block;
+      justify-content: space-between;
+      padding: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 1rem;
+      color: rebeccapurple;
+      
+  }
+
+  nav a{
+      color: rebeccapurple;
+      text-decoration: none;
+  }
+
+  #cash {
+      width: 600px;
+      margin-top: 10px;
+  }
+
+  .info {
+      width: 500px;
+  }
+  
+  #pMonkey {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: purple;
+      size: .8rem;
+  }
+  #pMonkeys {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: purple;
+    size: .8rem;
+    margin-bottom: -50px;
+}
+  .emoji {
+    font-size: 10rem;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .closed {
+    display: none;
+    margin: 0 auto;
+  }
+  
+  .open {
+    display: none;
+    margin: 0 auto;
+  }
+  
+  .active {
+    display: block;
+  }
+
+  .hero {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-form {
+    margin-bottom: 50px;
+    color: purple;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px solid purple;
+    padding: 20px;
+    border-bottom-width: 15px;
+    box-shadow: 5px 10px pink;
+}
+
+#submit {
+    box-shadow: 5px 10px pink;
+}
+
+nav{
+    margin-top: 0;
+    margin-bottom: 500px;
+    margin: 0 auto;
+}
+ul li{
+      display: inline-block;
+      justify-content: space-between;
+      padding: 20px;
+      margin-top: 0;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 1rem;
+      color: purple;
+     
+  }
+
+  nav a{
+      color: rebeccapurple;
+      text-decoration: none;
+      
+  }
+
+  #music {
+      width: 400px;
+      margin-bottom: -50px;
+  }
+
+form{
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-group {
+    margin-bottom: 30px;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid purple;
+    color: purple;
+    background: transparent;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: purple;
+    cursor: text;
+    transition: 0.2s;
+}
+
+button {
+    padding: 10px 0;
+    color: purple;
+    outline: none;
+    background: transparent;
+    border: 1px solid purple;
+    width: 100%;
+    cursor: pointer;
+}
+
+input:focus~label,
+    input:valid~label,
+    textarea:focus~label,
+    textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+    }
+
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .row .input-group {
+        flex-basis: 48%;
+    }
+
+    #foot {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: purple;
+    }
+
+
+.table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: purple;
+    font-size: 1.4rem;
+}
+
+table {
+	margin: 1em;
+	border: 2px solid darkblue;
+	border-collapse: collapse;
+}
+td, th {
+	padding: .5em;
+	border: 1px solid darkblue;
+}
+#table-left {
+    font-size: 1.7rem;
+    text-align: left;
+}
+
+#table-header {
+    font-size: 2rem;
+    box-shadow: 1px 1px slateblue;
+    margin: 30px;
+    padding: 30px;
+    text-shadow: 3px 3px 3px pink;
+    border: 10px solid purple;
+}
+
+#table-big {
+    color: rgb(190, 30, 190);
+    text-shadow: 1px 1px 1px purple;
+}
+
+.good {
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.every header{
+    font-size:30px;
+  }
+  .every #navbar{
+    position:fixed;
+  }
+  .every .navbar-elm{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    width:300px;
+    background-color:#55077c;
+    height:96vh;
+    overflow:auto;
+    color:#d0c3e5;
+    transition:border-radius .5s ease;
+    display:block;
+  }
+  .every .navbar-elm:hover{
+    border-radius:40px;
+  }
+  .every .nav-link{
+    display:block;
+    color:#e8e1f4;
+    padding:15px 16px;
+    text-decoration:none;
+    list-style-type:none;
+    text-align:center;
+    font-size:18px;
+    transition:color .5s ease,text-shadow .5s ease;
+  }
+  .every .nav-link:hover{
+    color:#d74d63;
+    text-shadow:0px 0px 15px #d74d63;
+  }
+  .every .navbar-header{
+    text-align:center;
+  }
+  .every #main-doc{
+    margin:0px;
+    margin-left:320px;
+  }
+  .every .hr{
+    border:2px solid #d74d63;
+    border-radius:5px;
+  }
